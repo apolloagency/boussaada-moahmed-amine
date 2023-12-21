@@ -1,0 +1,42 @@
+form {
+    width: 1000px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 8%;
+   
+
+}
+
+form fieldset {
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+label{
+    padding: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    
+}
+
+input {
+    position: absolute;
+    left: 35%;
+}
+
+.form1 {
+    margin-bottom: 10px;
+}
+
+
+.homme {
+   margin-left: 45px;
+}
+
+.femme {
+   margin-left: 192px;
+}
+
+.code {
+    padding-bottom: 10px;
+}
