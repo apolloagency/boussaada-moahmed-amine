@@ -84,6 +84,7 @@ header {
 
 .links ul li a.active {
     color: #000000; 
+    border-bottom: 2px solid #1f1f1f;
 }
 
 .links ul li a:hover {
@@ -487,14 +488,9 @@ form button:hover {
     }
     
     .nav-links {
-        height: auto;
-        
+        display: none;        
     }
-    
-    .nav-links a {
-        margin: 5px;
-        
-    }
+
 
     .menu-bar {
         display: block;
@@ -549,6 +545,44 @@ form button:hover {
     .logo-footer img {
         width: 100px;
     }
+
+
+    /* contact form */
+
+
+    .container-form {
+        width: 700px;
+        margin-left: 20px;
+        margin-bottom: 35%;
+        padding: 0 40px; 
+        width: 500px;
+    }
+    }
+
+    .text-form p {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 22px;
+    
+    }
+    
+    
+    form {
+        width: 90%; 
+    }
+
+    
+    .text-form {
+        display: block;
+
+
+    }
+
+    textarea {
+        max-height: 25vh;
+    }
+
+
 }
 
 
